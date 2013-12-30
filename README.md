@@ -57,9 +57,9 @@ How you can try using Iron TicTacToe:
 ---
 
 For my own testing, I submitted tasks using the command line:
-	% iron_worker queue iron_tictactoe \
-		--payload '{"board":"XOOXOX..X", "email":"dxjones@gmail.com"}'
-
+```
+% iron_worker queue iron_tictactoe --payload '{"board":"XOOXOX..X", "email":"dxjones@gmail.com"}'
+```
 
 To let other people submit tictactoe boards, I created a very simple web form at <a href="http://voxica.net/iron-tictactoe/" target="_new"><b>http://voxica.net/iron-tictactoe/</b></a>
 
