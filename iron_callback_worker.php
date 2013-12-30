@@ -12,7 +12,7 @@ $queue = new IronMQ();
 $cache = new IronCache();
 $cache->setCacheName('tictactoe_board');
 
-if ($debug) { echo "Hello World, from iron_callback_worker\n"; }
+if ($debug) { echo "iron_callback_worker\n\n"; }
 
 $payload = getPayload();
 $child = $payload->board;
@@ -41,7 +41,6 @@ while (TRUE) {
 }
 
 if ($debug) {
-	echo "Goodbye, from iron_callback_worker\n";
 	$toc = microtime(TRUE);
-	printf("elapsed time = %.6f sec\n", $toc - $tic);
+	printf("iron_callback_worker, elapsed time = %.6f sec\n", $toc - $tic);
 }
