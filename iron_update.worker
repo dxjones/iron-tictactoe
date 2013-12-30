@@ -1,0 +1,8 @@
+runtime 'php'
+file 'iron.json'
+file 'tictactoe_functions.php'
+file 'tictactoe_email.php'
+dir 'iron-io'
+dir 'unirest-php'
+dir 'sendgrid-php'
+exec 'iron_update_worker.php'

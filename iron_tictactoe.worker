@@ -1,0 +1,5 @@
+runtime 'php'
+file 'iron.json'
+file 'tictactoe_functions.php'
+dir 'iron-io'
+exec 'iron_tictactoe_worker.php'

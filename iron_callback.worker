@@ -1,0 +1,4 @@
+runtime 'php'
+file 'iron.json'
+dir 'iron-io'
+exec 'iron_callback_worker.php'
