@@ -61,9 +61,9 @@ For my own testing, I submitted tasks using the command line:
 % iron_worker queue iron_tictactoe --payload '{"board":"XOOXOX..X", "email":"dxjones@gmail.com"}'
 ```
 
-To let other people submit tictactoe boards, I created a very simple web form at <a href="http://voxica.net/iron-tictactoe/" target="_new"><b>http://voxica.net/iron-tictactoe/</b></a>
+To let other people submit tictactoe boards, I created a very simple web form at [http://voxica.net/iron-tictactoe/](http://voxica.net/iron-tictactoe/)
 
-You can get a sense of the parallel execution by looking at this screenshot (<a href="http://voxica.net/iron-tictactoe/iron-tictactoe-tasks.png" target="_new">http://voxica.net/iron-tictactoe/iron-tictactoe-tasks.png</a>) showing IronWorker tasks queued and running.
+You can get a sense of the parallel execution by looking at this screenshot [http://voxica.net/iron-tictactoe/iron-tictactoe-tasks.png](http://voxica.net/iron-tictactoe/iron-tictactoe-tasks.png) showing IronWorker tasks queued and running.
 
 Limitations:
 ---
