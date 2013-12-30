@@ -12,7 +12,7 @@ This project was done for mostly academic interest, rather than being a practica
 
 My goal was to solve an interesting problem that takes advantage of parallel execution, with a large number of **IronWorkers** performing tasks that are small pieces of a larger puzzle. The **IronCache** is used to keep track of intermediate results and **IronQueues** are used to keep track of tasks that will be executed later.
 
-Tic-tac-toe is a common children's game, with players taking turns placing "X" and "O" in a 3x3 grid, each trying to form a horizontal, vertical, or diagonal line. It is often used in undergraduate computer science courses to illustrate game tree search algorithms, so it should be understandable to a wide audience. A good description of tic-tac-toe is available on [wikipedia](http://en.wikipedia.org/wiki/Tic-tac-toe).
+Tic-tac-toe is a common children's game, with players taking turns placing "X" and "O" in a 3x3 grid, each trying to form a horizontal, vertical, or diagonal line. It is often used in undergraduate computer science courses to illustrate game tree search algorithms, so it should be understandable to a wide audience. A good description of tic-tac-toe is available on Wikipedia at [http://en.wikipedia.org/wiki/Tic-tac-toe](http://en.wikipedia.org/wiki/Tic-tac-toe).
 
 The interesting twist in this project is the "parallel" algorithm and how it is implemented using Iron.io **Workers**, **Message Queues**, and **Caches**.
 
@@ -70,6 +70,10 @@ Limitations:
 
 This project was implemented as a proof-of-concept demo. Consequently, it assumes there is only one tic-tac-toe puzzle being solved at a time. If you tried the online demo, please wait until one task completes before submitting another one.
 
+Source Code:
+---
+
+The source code is available on GitHub at [https://github.com/dxjones/iron-tictactoe](https://github.com/dxjones/iron-tictactoe)
 
 Observations:
 ---
